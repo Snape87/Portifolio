@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana;
+}
+ 
+
+body{
+    background-color: rgb(1, 14, 31);
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.cabecalho {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 25px 9%;
+    justify-content: space-between;
+    display: flex;
+    z-index: 100;
+    align-items: center;
+}
+
+.cabecalho .logo {
+    font-size: 30px;
+    font-weight: 700px;
+}
+
+.cabecalho ul{
+    display: flex;
+}
+
+.cabecalho li{
+    list-style: none;
+    margin-left: 35px;
+}
+
+.cabecalho ul li a{
+    font-size: 20px;
+    font-weight: 500; 
+    transition: .5s;
+}
+.cabecalho ul li:hover a{
+    color: black;
+    background-color: white;
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+.Home{
+    align-items: center;
+    display: flex;
+    height: 100vh;
+    color: white;
+    padding: 60px 9% 0;      
+}
+
+.Home-info h1{
+    font-size: 55px;
+    color: white;
+}
+
+.Home-info h5{
+    font-size: 20px;
+    margin-top: 5px;
+    color: white;
+}
+
+.Home-info h5 span {
+    display: inline-block;
+    color: transparent;
+    -webkit-text-stroke: .7px white;
+}
+
+
+.Home-info p {
+    font-size: 16px;
+    margin: 10px 0 25px;
+    color: white;
+}
+.Home-info .btn-social{
+    display: flex;
+    align-items: center;
+}
+
+.Btn{
+    display: inline-block;
+    padding: 10px 30px;
+    background: white;
+    border-radius: 45px;
+    border: 2px solid white;
+    box-shadow: 0 0 10px white;
+    font-size: 16px;
+    color: black;
+    font-weight: 600;
+    transition: .5s;
+}
+
+.Btn:hover{
+    background: transparent;
+    color: white;
+    box-shadow: none;
+}
+
+.Home-info .btn-social .sci{
+    margin-left: 10px;
+}
+
+.Home-info .btn-social .sci a {
+    display: inline-flex;
+    padding: 8px;
+    border: 2px solid white;
+    border-radius: 50px;
+    transition: .5s;
+    font-size: 20px;
+    color: white;
+    margin: 0 8px;
+}
+
+.Home-info .btn-social .sci a:hover{
+    color: black;
+    background-color: white;
+    box-shadow: 0 0 10px white;
+}
